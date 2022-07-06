@@ -1,0 +1,97 @@
+body {
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-section {
+    background-image: url(images/donation13.jpg);
+    height: 660px;
+    background-color: #1d1b1b;
+    color: rgb(235, 243, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-div {
+
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+
+}
+
+span {
+    color: rgb(20, 228, 37)
+}
+
+.header-div h1 {
+    font-size: 50px;
+}
+
+
+.header-div p {
+    margin: 0;
+    font-size: 1.2rem;
+    justify-content: center;
+
+    opacity: 0.8;
+}
+
+.header-div a {
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: rgb(20, 228, 37);
+    font-weight: 700;
+    top: 50px;
+    position: relative;
+    color: black
+}
+
+.donate-now {
+
+    height: 660px;
+
+}
+
+.btn-donate {
+    top: 50px;
+    position: relative;
+    padding: 30px;
+    margin-left: 3%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#btn-two {
+    border: 3px solid rgb(162, 245, 169);
+    background-color: rgb(230, 252, 243);
+    color: rgb(49, 243, 65);
+}
+
+#other-amount {
+    top: 100px;
+    position: relative;
+    opacity: 0.4;
+    font-size: 1.2rem;
+
+}
+
+hr {
+    width: 50%;
+    color: black;
+
+}
+
+.three-donate-plan {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+}
