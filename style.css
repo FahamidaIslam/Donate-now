@@ -15,16 +15,20 @@ p {
 
 h1 {
     margin-bottom: 3%;
+    margin-top: 6%;
 }
 
 .header-section {
-    background-image: url(images/donation13.jpg);
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/donation1.jpg);
     height: 660px;
     background-color: #1d1b1b;
     color: rgb(235, 243, 245);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
 }
+
 
 .header-div {
 
@@ -42,7 +46,6 @@ span {
     font-size: 50px;
 
 }
-
 
 .header-div p {
     margin: 0;
@@ -62,8 +65,8 @@ span {
     color: black
 }
 
-.donate-now-section {
-
+.donate-now {
+    margin-top: -50px;
     height: 660px;
 
 }
@@ -104,12 +107,11 @@ input {
 
 hr {
     margin: 20px 210px 30px 210px;
-
     vertical-align: middle;
 
 }
 
-.our-donate-plan-section {
+.our-donate-plan {
     margin-top: -50px;
 }
 
@@ -180,15 +182,10 @@ hr {
     height: 250px;
 }
 
-
-
-footer {
-
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 50px;
-
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
 }
 
 .get-my-updates {
@@ -196,19 +193,42 @@ footer {
 }
 
 .update-div {
-    margin: 10px 200px 30px 200px;
-    background-color: rgb(247, 189, 179);
+    margin: 10px 300px 50px 300px;
+    background-color: antiquewhite;
+    padding: 20px;
     height: 150px;
-    text-align: center;
+    justify-content: center;
     display: flex;
 }
 
 #email {
-    padding: 10px 15px;
+    padding: 10px;
     margin-top: 40px;
-    background-color: rgb(228, 224, 224);
-    border-radius: 5px;
+    background-color: rgb(214, 208, 208);
+    border-radius: 3px;
     text-align: left;
+}
+
+#btn {
+
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: -10px;
+    background-color: tomato;
+    border-radius: 3px;
+    text-align: left;
+    color: white;
+}
+
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 70px;
+    margin-top: 120px;
+
 }
 
 footer h4 {
